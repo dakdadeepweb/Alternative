@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grupo Roblox - Realm of Jewels</title>
+    <link rel="stylesheet" href="../assets/css/style.css">
+    <link rel="icon" href="../icons/icon.png" type="image/x-icon">
+</head>
+<body>
+    <!-- Navbar -->
+    <div class="navbar">
+        <div class="logo">
+            <a href="#">Grupo Roblox</a>
+        </div>
+        <ul class="nav-links">
+            <li><a href="home.html">Home</a></li>
+            <li><a href="jogos.html">Jogos</a></li>
+            <li><a href="equipe.html">Equipe</a></li>
+            <li><a href="redes.html">Redes Sociais</a></li>
+            <li><a href="forum.html">Fórum</a></li>
+        </ul>
+    </div>
+
+    <!-- Título e Descrição do Jogo -->
+    <div class="game-info">
+        <h1>Realm of Jewels</h1>
+        <p>Bem-vindo ao jogo Realm of Jewels, um mundo de aventuras!</p>
+    </div>
+
+    <!-- Atualizações Recentes -->
+    <div class="atualizacoes-container">
+        <h2>Atualizações Recentes</h2>
+        <div id="listaAtualizacoes">
+            <!-- Atualizações serão adicionadas aqui -->
+        </div>
+        <div class="atualizar-container">
+            <button id="btnAtualizar">Atualizar</button>
+        </div>
+    </div>
+
+    <!-- Popups -->
+    <div id="popupEmail" class="popup">
+        <div class="popup-content">
+            <h3>Informe seu E-mail</h3>
+            <input type="email" id="emailInput" placeholder="Digite seu e-mail">
+            <button id="btnEmailConfirm">Confirmar</button>
+            <button id="btnCloseEmail">Fechar</button>
+        </div>
+    </div>
+
+    <div id="popupAtualizacao" class="popup">
+        <div class="popup-content">
+            <h3>Nova Atualização</h3>
+            <label for="nomeAtualizacao">Nome da Atualização:</label>
+            <input type="text" id="nomeAtualizacao">
+            <label for="personagensAdicionados">Personagens Adicionados:</label>
+            <textarea id="personagensAdicionados"></textarea>
+            <label for="bannerUrl">Banner (URL):</label>
+            <input type="text" id="bannerUrl">
+            <button id="btnSalvarAtualizacao">Salvar</button>
+            <button id="btnCloseAtualizacao">Fechar</button>
+        </div>
+    </div>
+
+    <!-- Scripts -->
+    <script src="../assets/js/script.js"></script>
+</body>
+</html>

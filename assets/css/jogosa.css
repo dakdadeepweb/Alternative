@@ -1,0 +1,49 @@
+body {
+    background-color: #202020;
+    color: white;
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+.container {
+    margin: 50px auto;
+    width: 80%;
+    padding: 20px;
+}
+
+h1 {
+    font-size: 2em;
+    margin-bottom: 10px;
+}
+
+p {
+    font-size: 1.2em;
+    margin-bottom: 20px;
+}
+
+/* Estilo do banner */
+.game-banner img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+/* Botão de Download */
+.download-section {
+    margin-top: 20px;
+}
+
+.download-btn {
+    display: inline-block;
+    padding: 15px 30px;
+    background-color: #ff0000;
+    color: white;
+    text-decoration: none;
+    font-size: 1.2em;
+    border-radius: 5px;
+    transition: 0.3s;
+}
+
+.download-btn:hover {
+    background-color: #cc0000;
+}

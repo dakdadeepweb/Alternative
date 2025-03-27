@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login - Grupo Roblox</title>
+    <link rel="icon" href="icons/icon.png" type="image/x-icon">
+    <link rel="stylesheet" href="assets/css/index.css">
+</head>
+<body>
+    <div class="container">
+        <div class="login-box">
+            <h2>Bem-vindo!</h2>
+            <p>Faça login para acessar o site.</p>
+            <form id="login-form">
+                <input type="text" id="username" placeholder="Usuário" required>
+                <input type="password" id="password" placeholder="Senha" required>
+                <button type="submit">Entrar</button>
+                <p class="error-message" id="error-message"></p>
+            </form>
+            <button id="register-btn">Cadastrar-se</button> <!-- Botão de cadastro -->
+        </div>
+    </div>
+
+    <!-- Popup de Cadastro -->
+    <div id="register-popup" class="popup">
+        <div class="popup-content">
+            <span class="close-btn" id="close-popup">&times;</span>
+            <h2>Cadastro</h2>
+            <form id="register-form">
+                <input type="text" id="new-username" placeholder="Usuário" required>
+                <input type="password" id="new-password" placeholder="Senha" required>
+                <button type="submit">Cadastrar</button>
+                <p class="success-message" id="success-message"></p>
+            </form>
+        </div>
+    </div>
+
+    <script src="assets/js/index.js"></script>
+</body>
+</html>

@@ -148,5 +148,5 @@ footer {
 }
 
 footer strong {
-    color: var(--accent100);  /* Branco */
+   color: #ff0000;
 }
